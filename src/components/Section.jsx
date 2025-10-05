@@ -5,7 +5,7 @@ const Section = () => {
   return (
     <section className='relative flex justify-center items-center h-150 bg-gray-100 overflow-hidden'>
       <img 
-        src='https://github.com/Reeba20/Ecom-frontend/blob/master/src/images/model1.jpg' 
+        src='./src/images/model1.jpg' 
         alt="Fashion Model" 
         className="w-full h-full object-cover"
       />
