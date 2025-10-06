@@ -1,4 +1,4 @@
-// pages/NewIn.jsx
+
 import React, { useEffect, useState } from 'react'
 import { useCart } from '../context/CartContext'
 import { getAllProductsAPI } from '../services/allAPI'
