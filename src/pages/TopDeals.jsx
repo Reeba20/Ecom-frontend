@@ -17,7 +17,7 @@ const TopDeals = () => {
     try {
       const response = await getAllProductsAPI()
       if (response.status === 200) {
-        // For demo, show last 3 products as "Top Deals"
+     
         setProducts(response.data.slice(-3))
       }
     } catch (err) {
